@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.image {
+    flex: 1;
+    text-align: center;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    max-height: 828px;
+    padding-right: 0%;
+}
+
+.content {
+    flex: 1;
+    text-align: left;
+}
+
+.title {
+    font-size: 69px; /* You can adjust the size as needed */
+    color:azure;
+}
+
+.subtitle {
+    font-size: 24px;
+    color: #f2d2ff;
+}
+
+p {
+    font-size: 18px;
+    color: #ffd8ff98;
+}
+.btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ff00f2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Remove default underline */
+    display: inline-block; /* Ensures the button behaves like a block element */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.btn a {
+    color: inherit; /* Inherit the text color from the button */
+    text-decoration: none; /* Remove default underline */
+}
+
+.btn:hover {
+    background-color: #b3007d;
+}
